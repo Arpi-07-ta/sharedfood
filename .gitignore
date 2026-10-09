@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.sqlite3
+*.log
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+ENV/
+
+# Django
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and generated data
+*.pem
+*.key
+*.crt
+ml/data/raw/*
+ml/data/processed/*
+ml/models/*.joblib
+ml/models/*.pkl
+ml/models/*.sav
+
+# Local databases
+*.db
+*.sqlite3
+
+# Docker
+*.local

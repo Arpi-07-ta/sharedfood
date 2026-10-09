@@ -1,0 +1,43 @@
+{
+  "model_name": "food_waste_prototype",
+  "model_version": "prototype-random-forest-v1",
+  "dataset_type": "synthetic-prototype",
+  "accuracy": 0.9333333333333333,
+  "classification_report": {
+    "0": {
+      "precision": 0.9315068493150684,
+      "recall": 0.9577464788732394,
+      "f1-score": 0.9444444444444444,
+      "support": 142.0
+    },
+    "1": {
+      "precision": 0.9361702127659575,
+      "recall": 0.8979591836734694,
+      "f1-score": 0.9166666666666666,
+      "support": 98.0
+    },
+    "accuracy": 0.9333333333333333,
+    "macro avg": {
+      "precision": 0.933838531040513,
+      "recall": 0.9278528312733544,
+      "f1-score": 0.9305555555555556,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.9334110560575148,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9331018518518519,
+      "support": 240.0
+    }
+  },
+  "features": [
+    "quantity",
+    "preparation_time_hours",
+    "remaining_shelf_life_hours",
+    "demand",
+    "historical_wastage_rate",
+    "food_category",
+    "storage_condition"
+  ],
+  "notes": "This is a prototype model trained on a synthetic rule-based dataset because no real historical food waste labels were available in the repository."
+}
